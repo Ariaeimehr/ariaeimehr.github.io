@@ -1,0 +1,6 @@
+{
+  "name": "Mohammad Ariaeimehr - Portfolio",
+  "description": "A modern, minimal single-page portfolio with dynamic typewriter effect and interactive particle canvas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
