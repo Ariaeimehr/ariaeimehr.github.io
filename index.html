@@ -237,6 +237,38 @@
         transform: translateY(-2px);
       }
 
+      /* About / Research Interests Section */
+      .about-text {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #a0aec0;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .skills-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+      }
+
+      .skill-tag {
+        background: rgba(231, 76, 60, 0.1);
+        border: 1px solid #e74c3c;
+        color: #ffffff;
+        padding: 8px 18px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+
+      .skill-tag:hover {
+        background: #e74c3c;
+        transform: translateY(-2px);
+      }
+
       /* Publications Section */
       .section {
         padding: 100px 48px;
@@ -348,6 +380,7 @@
       <a href="#home" class="logo">Mohammad Ariaeimehr</a>
       <ul class="nav-links" id="nav-menu">
         <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#publications" class="nav-link">Publications</a></li>
         <li><a href="https://www.linkedin.com/in/mohammad-ariaeimehr-43628811b/" target="_blank" class="nav-link">LinkedIn</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -365,6 +398,23 @@
         <div class="cta-group">
           <a href="https://www.linkedin.com/in/mohammad-ariaeimehr-43628811b/" target="_blank" class="btn btn-primary">LinkedIn</a>
           <a href="#contact" class="btn btn-outline">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Research Section -->
+    <section id="about" class="section" style="background-color: #07090f; padding-top: 60px;">
+      <h2 class="section-title">About My Research</h2>
+      <div class="pub-container" style="align-items: center;">
+        <p class="about-text">
+          As a System Engineer and researcher, my academic focus bridges the gap between advanced machine learning and real-world network infrastructure. I am passionate about developing scalable, intelligent systems and exploring the intersection of distributed AI and next-generation telecommunications. My core areas of expertise include:
+        </p>
+        <div class="skills-wrapper">
+          <span class="skill-tag">Deep Reinforcement Learning</span>
+          <span class="skill-tag">Federated Learning</span>
+          <span class="skill-tag">Human Activity Recognition</span>
+          <span class="skill-tag">Edge AI & TinyML</span>
+          <span class="skill-tag">Structural Causal Models</span>
         </div>
       </div>
     </section>
